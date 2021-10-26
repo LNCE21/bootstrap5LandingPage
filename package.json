@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/LNCE21/bootstrap5LandingPage/issues"
   },
-  "homepage": "https://github.com/LNCE21/bootstrap5LandingPage#readme"
+  "homepage": "https://github.com/LNCE21/bootstrap5LandingPage#readme",
+  "devDependencies": {
+    "sass": "^1.43.3"
+  }
 }
