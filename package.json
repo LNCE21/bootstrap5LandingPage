@@ -23,5 +23,8 @@
   "homepage": "https://github.com/LNCE21/bootstrap5LandingPage#readme",
   "devDependencies": {
     "sass": "^1.43.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
