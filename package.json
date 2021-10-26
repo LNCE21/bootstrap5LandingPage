@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap5landingpage",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 Landing page with Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LNCE21/bootstrap5LandingPage.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Bootstrap-V5",
+    "Sass"
+  ],
+  "author": "Lautaro Clerici Erhardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LNCE21/bootstrap5LandingPage/issues"
+  },
+  "homepage": "https://github.com/LNCE21/bootstrap5LandingPage#readme"
+}
