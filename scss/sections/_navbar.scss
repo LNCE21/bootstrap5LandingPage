@@ -1,0 +1,25 @@
+//Files imported with @use are called modules. To use mixins or variables of these modules, we have to call them using namespaces. By default, the namespace is the filename without the extension:
+@use"../custom" as *;
+
+.menu {
+    background: $primary;
+
+    li {
+        padding: 0 .7rem;
+    }
+
+    a {
+        color: $gray-900;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .rounded-pill-menu {
+        background: transparent;
+    }
+
+    .whatsapp-logo {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
