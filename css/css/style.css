@@ -11118,28 +11118,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.rounded-pill-menu {
-  height: 2.2rem;
-  width: 3rem;
-  display: inline-block;
-  background: #fff;
-  padding: 0 1.5rem;
-  margin-left: 0.8rem;
-  transform: scale(0.99);
-  transition: all 0.3s;
-}
-.rounded-pill-menu:hover {
-  background: #f8f9fa;
-  transform: scale(1.1);
-}
-
-.whatsapp-logo {
-  height: 1.5rem;
-  width: 1.5rem;
-}
-
 .menu {
   background: #fff;
+}
+.menu ul > * {
+  display: inline-block;
+  width: min-content;
 }
 .menu li {
   padding: 0 0.7rem;
@@ -11148,6 +11132,20 @@ textarea.form-control-lg {
   color: #212529;
   text-transform: capitalize;
   font-weight: 600;
+}
+.menu .contact-btn {
+  background: #20c997;
+  padding: 0 0.3rem;
+  margin-left: 0.7rem;
+  border-radius: 5px;
+  transform: scale(1);
+  transition: all 0.4s;
+}
+.menu .contact-btn:hover {
+  transform: scale(1.1);
+}
+.menu .contact-btn:active {
+  transform: scale(0.95);
 }
 
 /*# sourceMappingURL=style.css.map */
