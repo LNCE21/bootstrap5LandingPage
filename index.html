@@ -59,7 +59,7 @@
     <section id="hero" class="hero-section">
         <div class="container">
             <!--Hero section has a left section with text and a right section with an image-->
-            <div class="row align-items-center">
+            <div class="row align-items-end">
                 <!--Hero Left Side, Heading, description, call to action-->
                 <div class="col-md-6 hero-content">
                     <h1 class="display-2">
@@ -75,13 +75,25 @@
                     </button>
                 </div>
                 <!--Hero Right side, Team Image and Video-->
-                <div class="col-md-6 hero-content">
-                    <div class="video-box  text-end">
+                <div class="col-md-6 hero-content text-end">
+                    <div class="video-box">
                         <img src="img/hero-image.png" alt="Team Image" class="hero-image img-fluid">
+                        <a href="#" class="position-absolute top-50 start-50 translate-middle">
+                            <span>
+                                <i class="fas fa-play-circle"></i>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
+
         </div>
+
+        <svg class="hero-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#246888" fill-opacity="1"
+                d="M0,256L48,245.3C96,235,192,213,288,208C384,203,480,213,576,234.7C672,256,768,288,864,266.7C960,245,1056,171,1152,165.3C1248,160,1344,224,1392,256L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </section>
 
 

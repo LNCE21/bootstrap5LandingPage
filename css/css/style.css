@@ -11125,6 +11125,7 @@ textarea.form-control-lg {
   padding: 0.93rem 4.3rem 0.93rem 1.2rem;
   font-weight: 700;
   margin-left: 0.5rem;
+  margin-bottom: 2rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #246888;
   color: #fff;
@@ -11189,14 +11190,27 @@ textarea.form-control-lg {
   font-size: 1.5rem;
   display: block;
   color: #0f5575;
-  margin: 1rem 0 5rem 0.5rem;
+  margin: 1rem 0 3rem 0.5rem;
 }
 
 .hero-section {
   background: linear-gradient(to right, rgba(255, 241, 235, 0.85), rgba(172, 224, 249, 0.85));
   padding: 10rem 0 0 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+}
+
+.hero-svg {
+  width: 100vw;
+  margin-top: -5rem;
+}
+
+.hero-content .video-box {
+  position: relative;
+}
+.hero-content .video-box a span i {
+  font-size: 6rem;
+  color: #212529;
 }
 
 .menu {

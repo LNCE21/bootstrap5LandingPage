@@ -10,3 +10,11 @@
 @mixin hero-gradient {
     background:linear-gradient(to right, rgba(#fff1eb, .85), rgba(#ace0f9, .85));
 }
+
+//Absolute centering
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
