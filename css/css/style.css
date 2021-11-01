@@ -11126,7 +11126,7 @@ textarea.form-control-lg {
   font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
-  background-color: #20c997;
+  background-color: #246888;
   color: #fff;
   transform: scale(1);
   transition: all 0.3s;
@@ -11144,7 +11144,7 @@ textarea.form-control-lg {
 }
 .btn-rounded span i,
 :visited span i {
-  color: #20c997;
+  color: #246888;
   font-size: 1rem;
   line-height: 2.5rem;
 }
@@ -11211,7 +11211,6 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 .menu .contact-btn {
-  background: #20c997;
   padding: 0 0.3rem;
   margin-left: 0.7rem;
   border-radius: 5px;
