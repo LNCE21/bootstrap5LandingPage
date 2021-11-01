@@ -1,0 +1,21 @@
+//Files imported with @use are called modules. To use mixins or variables of these modules, we have to call them using namespaces. By default, the namespace is the filename without the extension:
+@use"../custom" as *;
+
+//Styling hero description
+.display-2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+
+    &--intro {
+        display: inline-block;
+        font-weight: 700;
+        color: #246888;
+    }
+
+    &--description {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        display: block;
+        color: #0f5575;
+    }
+}

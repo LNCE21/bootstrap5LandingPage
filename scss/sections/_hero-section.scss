@@ -1,0 +1,11 @@
+//Files imported with @use are called modules. To use mixins or variables of these modules, we have to call them using namespaces. By default, the namespace is the filename without the extension:
+@use"../custom" as *;
+@use'../components/mixins' as *;
+
+.hero-section {
+    @include hero;
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100vh;
+
+}

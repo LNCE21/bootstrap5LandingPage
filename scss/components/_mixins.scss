@@ -1,7 +1,8 @@
 //Module
 @use"../custom" as *;
 
+
 //Gradient Mixin
-@mixin gradient {
-     background:linear-gradient(to right, rgba(#28eeb3, .85), rgba(#41f0bb, .85));
+@mixin hero {
+    background:linear-gradient(to right, rgba(#fff1eb, .85), rgba(#ace0f9, .85));
 }

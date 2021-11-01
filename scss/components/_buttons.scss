@@ -7,18 +7,18 @@
 :visited {
     position: relative;
     text-transform: uppercase;
-    color: #135f48;
     padding: .93rem 4.3rem .93rem 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
     margin: 0;
     border: .1rem solid rgba($white, .6);
-    background: linear-gradient(to right, rgba($teal, .85), rgba(#28eeb3, .95));
+    background-color: $teal;
+    color: $white;
     transform: scale(1);
     transition: all .3s;
 
     span {
         position: absolute;
-        background-color: $primary;
+        background-color: $white;
         width: 2.5rem;
         height: 2.5rem;
         top: 50%;
@@ -34,9 +34,16 @@
     }
 
     &:hover {
-        @include gradient;
         transform: scale(1.1);
         box-shadow: 0 1rem 2rem rgba($black, 0.3); /*Offsetx, y, blur, color and opacity*/
+
+        span {
+            background-color: $white;
+
+            i {
+                transform: translateX(2px);
+            }
+        }
     }
 
     //Active state effect
