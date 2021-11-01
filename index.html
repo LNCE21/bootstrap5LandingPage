@@ -10,6 +10,11 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/css/fontawesome.css">
+    <!--Google fonts/ Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <title>Bootstrap V5 Landing Page</title>
 
 </head>
@@ -54,11 +59,12 @@
     <section id="hero" class="hero-section">
         <div class="container">
             <!--Hero section has a left section with text and a right section with an image-->
-            <div class="row">
+            <div class="row align-items-center">
+                <!--Hero Left Side, Heading, description, call to action-->
                 <div class="col-md-6 hero-content">
                     <h1 class="display-2">
-                        <span class="display-2--intro">We are IA</span>
-                        <span class="display-2--description">We build incredible experiences by delivering
+                        <span class="display-2--intro">We are AI</span>
+                        <span class="display-2--description lh-sm">We build incredible experiences by delivering
                             high-perfoming websites.</span>
                     </h1>
                     <button type="button" class="rounded-pill btn-rounded"> Get in touch
@@ -68,7 +74,12 @@
                         </span>
                     </button>
                 </div>
-                <div class="col-md-6 hero-content"></div>
+                <!--Hero Right side, Team Image and Video-->
+                <div class="col-md-6 hero-content">
+                    <div class="video-box  text-end">
+                        <img src="img/hero-image.png" alt="Team Image" class="hero-image img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
     </section>

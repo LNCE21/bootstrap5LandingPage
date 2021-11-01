@@ -11124,7 +11124,7 @@ textarea.form-control-lg {
   text-transform: uppercase;
   padding: 0.93rem 4.3rem 0.93rem 1.2rem;
   font-weight: 700;
-  margin: 0;
+  margin-left: 0.5rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #246888;
   color: #fff;
@@ -11172,19 +11172,24 @@ textarea.form-control-lg {
 }
 
 .display-2 {
+  font-family: "Poppins", sans-serif;
   margin-bottom: 1rem;
   text-transform: capitalize;
 }
 .display-2--intro {
   display: inline-block;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
+  font-size: 5.5rem;
   color: #246888;
+  margin-top: 5rem;
 }
 .display-2--description {
   text-transform: uppercase;
   font-size: 1.5rem;
   display: block;
   color: #0f5575;
+  margin: 1rem 0 5rem 0.5rem;
 }
 
 .hero-section {
@@ -11195,7 +11200,7 @@ textarea.form-control-lg {
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(255, 241, 235, 0.85), rgba(172, 224, 249, 0.85));
+  background: linear-gradient(to right, #fff1eb, rgba(172, 224, 249, 0.85));
   border-bottom: solid 1px #ced4da;
 }
 .menu ul > * {

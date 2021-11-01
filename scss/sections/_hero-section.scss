@@ -3,9 +3,9 @@
 @use'../components/mixins' as *;
 
 .hero-section {
-    @include hero;
+    @include hero-gradient;
     padding: 10rem 0 0 0;
     width: 100%;
     height: 100vh;
-
 }
+

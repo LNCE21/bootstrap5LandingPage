@@ -3,7 +3,7 @@
 @use'../components/mixins' as *;
 
 .menu {
-    @include hero;
+    @include navbar-gradient;
     border-bottom: solid 1px $gray-400;
 
     ul > * {

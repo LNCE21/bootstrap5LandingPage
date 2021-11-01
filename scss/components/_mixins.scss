@@ -1,8 +1,12 @@
 //Module
 @use"../custom" as *;
 
+//Gradient Mixin
+@mixin navbar-gradient {
+    background:linear-gradient(to right, rgba(#fff1eb, 1), rgba(#ace0f9, .85));
+}
 
 //Gradient Mixin
-@mixin hero {
+@mixin hero-gradient {
     background:linear-gradient(to right, rgba(#fff1eb, .85), rgba(#ace0f9, .85));
 }
