@@ -1,8 +1,10 @@
 //Files imported with @use are called modules. To use mixins or variables of these modules, we have to call them using namespaces. By default, the namespace is the filename without the extension:
 @use"../custom" as *;
+@use'../components/mixins' as *;
 
 
-.btn-rounded {
+.btn-rounded,
+:visited {
     position: relative;
     text-transform: uppercase;
     color: #135f48;
@@ -10,7 +12,9 @@
     font-weight: 500;
     margin: 0;
     border: .1rem solid rgba($white, .6);
-    background-color: $teal;
+    background: linear-gradient(to right, rgba($teal, .85), rgba(#28eeb3, .95));
+    transform: scale(1);
+    transition: all .3s;
 
     span {
         position: absolute;
@@ -27,5 +31,18 @@
             font-size: 1rem;
             line-height: 2.5rem;
         }
+    }
+
+    &:hover {
+        @include gradient;
+        transform: scale(1.1);
+        box-shadow: 0 1rem 2rem rgba($black, 0.3); /*Offsetx, y, blur, color and opacity*/
+    }
+
+    //Active state effect
+    &:active, {
+        outline:none;
+        transform: translateY(-0.5px); /*It moves down from the reference*/
+        box-shadow: 0 0.5rem 1rem rgba($black, 0.4); /*Offsetx, y, blur, color and opacity*/
     }
 }

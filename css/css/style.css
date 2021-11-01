@@ -11118,7 +11118,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-rounded {
+.btn-rounded,
+:visited {
   position: relative;
   text-transform: uppercase;
   color: #135f48;
@@ -11126,9 +11127,12 @@ textarea.form-control-lg {
   font-weight: 500;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
-  background-color: #20c997;
+  background: linear-gradient(to right, rgba(32, 201, 151, 0.85), rgba(40, 238, 179, 0.95));
+  transform: scale(1);
+  transition: all 0.3s;
 }
-.btn-rounded span {
+.btn-rounded span,
+:visited span {
   position: absolute;
   background-color: #fff;
   width: 2.5rem;
@@ -11138,10 +11142,26 @@ textarea.form-control-lg {
   transform: translateY(-50%);
   border-radius: 50%;
 }
-.btn-rounded span i {
+.btn-rounded span i,
+:visited span i {
   color: #20c997;
   font-size: 1rem;
   line-height: 2.5rem;
+}
+.btn-rounded:hover,
+:visited:hover {
+  background: linear-gradient(to right, rgba(40, 238, 179, 0.85), rgba(65, 240, 187, 0.85));
+  transform: scale(1.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  /*Offsetx, y, blur, color and opacity*/
+}
+.btn-rounded:active,
+:visited:active {
+  outline: none;
+  transform: translateY(-0.5px);
+  /*It moves down from the reference*/
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  /*Offsetx, y, blur, color and opacity*/
 }
 
 .menu {
