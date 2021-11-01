@@ -2,3 +2,30 @@
 @use"../custom" as *;
 
 
+.btn-rounded {
+    position: relative;
+    text-transform: uppercase;
+    color: #135f48;
+    padding: .93rem 4.3rem .93rem 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    border: .1rem solid rgba($white, .6);
+    background-color: $teal;
+
+    span {
+        position: absolute;
+        background-color: $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+
+        i {
+            color: $teal;
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+    }
+}
