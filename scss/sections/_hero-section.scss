@@ -28,3 +28,24 @@
         }
     }
 }
+
+//Animation of play-button. The second part of the animation is on the animation partial.
+.border-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 6rem;
+    border: 0.57rem solid $white;
+    border-radius: 50%;
+    animation: pulse-animation 1.65s linear infinite;
+
+    //We have 2 circles, and we set a delay on one of them
+    &--border-1 {
+        animation-delay: 1s;
+    }
+    &--border-2 {
+        animation-delay: 1.65s;
+        color: rgba($white, .9);
+    }
+}
