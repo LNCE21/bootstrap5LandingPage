@@ -11132,32 +11132,55 @@ textarea.form-control-lg {
 :visited {
   position: relative;
   text-transform: uppercase;
-  padding: 0.93rem 4.3rem 0.93rem 1.2rem;
+  padding: 0.7rem 2.5rem 0.7rem 0.7rem;
   font-weight: 700;
-  margin-left: 0.5rem;
-  margin-bottom: 2rem;
+  margin-left: 0rem;
+  margin-bottom: 0.5rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #246888;
   color: #fff;
   transform: scale(1);
   transition: all 0.3s;
 }
+@media (min-width: 992px) {
+  .btn-rounded,
+:visited {
+    padding: 0.93rem 4.3rem 0.93rem 1.2rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
 .btn-rounded span,
 :visited span {
   position: absolute;
   background-color: #fff;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   top: 50%;
   right: 5px;
   transform: translateY(-50%);
   border-radius: 50%;
 }
+@media (min-width: 992px) {
+  .btn-rounded span,
+:visited span {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
 .btn-rounded span i,
 :visited span i {
   color: #246888;
-  font-size: 1rem;
-  line-height: 2.5rem;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .btn-rounded span i,
+:visited span i {
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
 }
 .btn-rounded:hover,
 :visited:hover {
@@ -11191,23 +11214,42 @@ textarea.form-control-lg {
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   color: #246888;
-  margin-top: 5rem;
+  padding-top: 0;
+  margin-top: 0.8rem;
+}
+@media (min-width: 992px) {
+  .display-2--intro {
+    font-size: 5.5rem;
+    margin-top: 5rem;
+  }
 }
 .display-2--description {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: block;
   color: #0f5575;
-  margin: 1rem 0 3rem 0.5rem;
+  margin: 0rem 0 1.5rem 0rem;
+}
+@media (min-width: 992px) {
+  .display-2--description {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 1rem 0 3rem 0.5rem;
+  }
 }
 
 .hero-section {
   background: linear-gradient(to right, rgba(255, 241, 235, 0.85), rgba(172, 224, 249, 0.85));
-  padding: 10rem 0 0 0;
+  padding: 6rem 0 0 0;
   width: 100%;
   height: 100%;
+}
+@media (min-width: 992px) {
+  .hero-section {
+    padding: 10rem 0 0 0;
+  }
 }
 
 .hero-svg {
