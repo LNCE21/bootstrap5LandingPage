@@ -11242,7 +11242,7 @@ textarea.form-control-lg {
 
 .hero-section {
   background: linear-gradient(to right, rgba(255, 241, 235, 0.85), rgba(172, 224, 249, 0.85));
-  padding: 6rem 0 0 0;
+  padding: 5.5rem 0 0 0;
   width: 100%;
   height: 100%;
 }
@@ -11259,6 +11259,16 @@ textarea.form-control-lg {
 
 .hero-content .video-box {
   position: relative;
+}
+.hero-content .video-box img {
+  height: 20.9rem;
+  width: auto;
+}
+@media (min-width: 992px) {
+  .hero-content .video-box img {
+    height: auto;
+    width: auto;
+  }
 }
 .hero-content .video-box a span i {
   font-size: 6rem;

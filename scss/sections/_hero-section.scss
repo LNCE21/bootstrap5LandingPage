@@ -4,7 +4,7 @@
 
 .hero-section {
     @include hero-gradient;
-    padding: 6rem 0 0 0;
+    padding: 5.5rem 0 0 0;
     width: 100%;
     height: 100%;
 
@@ -21,8 +21,15 @@
 
 .hero-content {
     .video-box {
-       
+       img {
+        height: 20.9rem;
+        width: auto;
+        @include media-breakpoint-up(lg) {
+            height: auto;
+            width: auto;
+        }
 
+       }
         position: relative;
         a {
             span {
@@ -35,6 +42,10 @@
         }
     }
 }
+
+
+
+
 
 //Animation of play-button. The second part of the animation is on the animation partial.
 .border-animation {
